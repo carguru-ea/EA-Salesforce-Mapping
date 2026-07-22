@@ -1,5 +1,5 @@
 {
-  "description": "Deletions of these metadata types in Git must NOT be removed from the org. Any deleted file whose path matches one of these fragments is skipped when building destructiveChangesPost.xml.",
+  "description": "Deletions of these metadata types in Git must NOT be removed from the org. Any deleted file whose path matches one of these fragments (treated as a regex) is skipped when building destructiveChangesPost.xml.",
   "ignoredTypes": [
     { "type": "ListView",       "pathMatch": "/listViews/" },
     { "type": "CustomMetadata", "pathMatch": "/customMetadata/" },
